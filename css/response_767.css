@@ -1,0 +1,302 @@
+@media (max-width: 767px){     
+    :root {
+        --font_size_title: 28px;
+        --font_size: 16px;
+    } 
+    .features_info-title.fs36 {
+        font-size: 22px;
+    }
+    .contacts .title {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .step .title {
+        font-size: 28px;
+    }
+    .header_contacts-popup {
+        display: none;
+    }
+    .header_logo img {
+        width: 102px;
+        flex-shrink: 0;
+    }
+    .header_logo a {
+        margin-right: 0px;
+    }
+    .header {
+        padding: 24px 0 13px;
+    }
+    .step_items {
+        margin-left: 0;
+    }
+    .step_items > * {
+        width: 100%;
+        margin-left: 0;
+    }
+    .callback_form .line {
+        flex-direction: column;
+    }
+    .callback_form .line .field {
+        margin-right: 0px;
+        margin-bottom: 16px;
+        max-width: 100%;
+    }
+    .callback_form .line .submit_btn {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .callback_form .line .submit_btn img {
+        display: none;
+    }
+    .characteristic_item-value {
+        font-size: var(--font_size);
+        line-height: 22px;
+        width: 60%;
+        text-align: right;
+        font-size: 15px;
+    }
+    .characteristic_item {
+        padding: 13px 20px;
+    }
+
+
+    .usage_item ol li {
+        padding-left: 33px;
+        font-size: 10px;
+        line-height: 13px;
+        margin-bottom: 12px;
+    }
+    .usage_item:nth-child(1) ol li:before {
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0px;
+        width: 22px;
+        height: 22px;
+        font-size: 13px;
+        line-height: 22px;
+    }  
+    .usage_item:nth-child(2) ol {
+        max-width: 210px;
+        margin-top: 10px;
+    }    
+    .usage_item:nth-child(2) ol li:before {
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0px;
+        width: 22px;
+        height: 22px;
+        font-size: 13px;
+        line-height: 22px;
+    }    
+    .usage_item:nth-child(2) ol li {
+        font-size: 10px;
+        line-height: 13px;
+        margin-bottom: 12px;
+    }
+    .title {
+        line-height: 34px;
+        padding-left: 0;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+    .title::before {
+        width: 57px;
+        height: 3px;
+        left: 50%;
+        top: 100%;
+        transform: translateY(0);
+        transform: translateX(-50%);
+    }
+    .block_title {
+        justify-content: center;
+    }
+    .characteristic_item-text {
+        font-size: 15px;
+        line-height: 17px;
+    }
+    .callback_title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .first-section_title {
+        margin-bottom: 5px;
+    }
+    .first-section_text {
+        line-height: 24px;
+    }
+    .first-section_price {
+        border-radius: 15px;
+        font-size: 22px;
+        margin-bottom: 18px;
+    }
+    .first-section ul li {
+        margin-bottom: 15px;
+    }
+    .first-section_title .white,
+    .first-section_title .yellow {
+        line-height: 28px;
+        padding-right: 22px;
+        padding-left: 10px;
+    }
+    .first-section_title {
+        line-height: 38px;
+    }
+    .callback::before {
+        height: 80%;
+    }
+    .block_title .desc {
+        text-align: center;
+    }
+    .block_title-link-mob {
+        text-align: center;        
+        justify-content: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .block_title-link-mob img {
+        display: none;
+    }
+    .features {
+        padding-bottom: 160px;
+    }
+    .contacts {
+        padding-bottom: 170px;
+    }
+    .contacts .block_title .desc {
+        font-size: 18px;
+        margin-top: 0;
+    }
+    .contacts_adress {
+        margin-bottom: 15px;
+    }
+    .features_video {
+        width: 100%;
+        height: auto;
+        margin: 15px auto 0;
+    }
+    .callback2 .callback_title {
+        font-size: 22px;
+        line-height: 27px;
+    }
+    .features_info-title {
+        font-size: 22px;
+        line-height: 27px;
+        margin-bottom: 9px;
+        margin-top: 15px;
+    }
+    .features_info-text {
+        line-height: 19px;
+    }
+    .features_top {
+        margin-bottom: 21px;
+    }
+    .features_bottom ul li {
+        margin-bottom: 18px;
+    }
+    .features_bottom ul li:last-child {
+        margin-bottom: 0px;
+    }
+    .step_item-text {
+        margin-top: 44px;
+    }
+    .header_contacts-soc {
+        width: 24px;
+        height: 24px;
+    }
+    .header_contacts img {
+        width: 24px;
+        height: 24px;
+    }
+    .header_contacts-soc:nth-child(2) {
+        display: block;
+        margin-right: 3px;
+    }
+    .header_contacts-soc:nth-child(4) {
+        display: block;
+        margin-left: 3px;
+    }
+    footer .header_mode {
+        display: block;
+        border-left: none;
+        padding-left: 0;
+        margin-right: 0;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    footer .header_wrap {
+        flex-direction: column;
+    }
+    footer .header_logo img {
+        width: 175px;
+        flex-shrink: 0;
+    }
+    footer .header_logo {
+        flex-direction: column;
+    }
+    footer .header_contacts {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .header_contacts-phone {
+        width: 100%;
+        text-align: center;
+        margin-top: 22px;
+        margin-bottom: 27px;
+        margin-left: 0;
+    }
+    footer .header_contacts-popup {
+        display: block;
+        margin-left: 0;
+    }
+    footer .header_contacts img {
+        width: 38px;
+        height: 38px;
+    }
+    footer .header_contacts-soc {
+        width: 38px;
+        height: 38px;
+    }
+    footer .header_contacts a:first-child {
+        margin-right: 13px;
+    }
+    footer .header_contacts-soc:nth-child(4) {
+        margin-left: 13px;
+    }
+    footer .header_contacts-soc:nth-child(2) {
+        margin-right: 13px;
+    }
+    footer {
+        padding-bottom: 45px;
+        padding-top: 35px;
+    }
+      
+    
+
+    
+    
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

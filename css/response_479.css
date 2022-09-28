@@ -1,0 +1,47 @@
+@media (max-width: 479px) {
+
+    .header_contacts-phone {
+        font-size: 15px;
+        line-height: 18px;
+        margin-left: 8px;
+    }
+    .usage_item ol {
+        padding: 15px;
+    }
+    .usage_item ol li {
+        padding-left: 33px;
+        font-size: 9px;
+        line-height: 11px;
+    }
+    .usage_item:nth-child(2) ol {
+        max-width: 183px;
+    }
+    .first-section_title .white, 
+    .first-section_title .yellow {
+        line-height: 28px;
+        padding-right: 14px;
+        padding-left: 5px;
+    }
+    .block_title-link-mob {
+        width: 100%;
+    }
+    .contacts .block_title-link {
+        width: 100%;
+        justify-content: center;
+    }
+    .contacts .block_title-link img {
+        display: none;
+    }
+    .first-section_price {
+        padding: 4px 25px 8px 22px;
+    }
+    footer .header_contacts-phone {
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+  
+    
+    
+
+}
