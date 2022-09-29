@@ -43,6 +43,9 @@
     .modal {
         padding-top: 30px;
     }
+    .header_logo a {
+        width: 113px;
+    }
     
 
 }

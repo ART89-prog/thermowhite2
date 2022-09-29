@@ -330,8 +330,12 @@ body {
   align-items: center;
 }
 .header_logo a {
+  width: 196px;
   margin-right: 19px;
   flex-shrink: 0;  
+}
+.header_logo a img {
+  width: 100%;
 }
 .header_mode {
   padding-left: 28px;

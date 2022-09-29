@@ -35,11 +35,7 @@
         display: none;
     }
     .header_logo a {
-        width: 145px;
         margin-right: 12px;
-    }
-    .header_logo a img {
-        width: 100%;
     }
     .header_mode {
         font-size: 15px;
