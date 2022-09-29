@@ -313,9 +313,9 @@ body {
   padding: 0 15px;
 }
 .header {
-  padding: 49px 0 285px;
+  padding: 49px 0 265px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover !important;
   background-position: 0 center;
   background: url(../image/header_bg.png);
 }

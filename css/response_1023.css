@@ -65,6 +65,7 @@
     }
     .header {
         padding: 49px 0 220px;
+        background-size: auto !important;
     }
     .callback_wrap {
         padding: 20px;
