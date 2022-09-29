@@ -1,281 +1,218 @@
 @media (max-width: 767px){     
     :root {
-        --font_size_title: 28px;
+        --font_size_title: 26px;
         --font_size: 16px;
-    } 
-    .features_info-title.fs36 {
-        font-size: 22px;
     }
-    .contacts .title {
-        font-size: 28px;
-        margin-bottom: 20px;
+    .callback_wrap {
+        background: #F1F3F8;
+        box-shadow: none;
+        border-radius: 0;
+        padding: 0;        
     }
-    .step .title {
-        font-size: 28px;
+    .callback {
+        margin-top: 0px;
+        width: calc(100% + 40px);
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background: #F1F3F8;
+        padding-top: 58px;
+        padding-bottom: 60px;
     }
-    .header_contacts-popup {
+    .callback_form .line .field input {
+        background: #fff;
+    }
+    .header_mode {
         display: none;
     }
-    .header_logo img {
-        width: 102px;
-        flex-shrink: 0;
-    }
     .header_logo a {
-        margin-right: 0px;
+        width: 113px;
+    }
+    .header_contacts-soc {
+        width: 24px;
+        height: 24px;
+        margin-right: 3px;
+    }
+    .header_contacts-soc img {
+        width: 100%;
+        height: 100%;
     }
     .header {
-        padding: 24px 0 13px;
+        padding: 22px 0 40px;
+        background-position-x: -65%;
     }
-    .step_items {
-        margin-left: 0;
+    .header_contact-phone {
+        font-size: 16px;
+        margin-bottom: 0;
+        line-height: 1;
     }
-    .step_items > * {
-        width: 100%;
-        margin-left: 0;
+    .header_contact-email {
+        font-size: 11px;
+    }
+    .header_title {
+        font-size: 32px;
+        margin-bottom: 13px;
+    }
+    .header_list li {
+        font-size: 16px;
     }
     .callback_form .line {
         flex-direction: column;
     }
     .callback_form .line .field {
         margin-right: 0px;
-        margin-bottom: 16px;
-        max-width: 100%;
+        margin-bottom: 18px;
     }
     .callback_form .line .submit_btn {
         width: 100%;
-        text-align: center;
-        justify-content: center;
-        padding-left: 10px;
-        padding-right: 10px;
     }
-    .callback_form .line .submit_btn img {
-        display: none;
+    form input[type=checkbox]+label:before {
+        top: 4px;
     }
-    .characteristic_item-value {
-        font-size: var(--font_size);
-        line-height: 22px;
-        width: 60%;
-        text-align: right;
-        font-size: 15px;
+    form input[type=checkbox]+label:after {
+        top: 8px;
     }
-    .characteristic_item {
-        padding: 13px 20px;
-    }
-
-
-    .usage_item ol li {
-        padding-left: 33px;
-        font-size: 10px;
-        line-height: 13px;
-        margin-bottom: 12px;
-    }
-    .usage_item:nth-child(1) ol li:before {
-        top: 50%;
-        transform: translateY(-50%);
-        left: 0px;
-        width: 22px;
-        height: 22px;
-        font-size: 13px;
-        line-height: 22px;
-    }  
-    .usage_item:nth-child(2) ol {
-        max-width: 210px;
-        margin-top: 10px;
-    }    
-    .usage_item:nth-child(2) ol li:before {
-        top: 50%;
-        transform: translateY(-50%);
-        left: 0px;
-        width: 22px;
-        height: 22px;
-        font-size: 13px;
-        line-height: 22px;
-    }    
-    .usage_item:nth-child(2) ol li {
-        font-size: 10px;
-        line-height: 13px;
-        margin-bottom: 12px;
-    }
-    .title {
-        line-height: 34px;
-        padding-left: 0;
-        padding-bottom: 15px;
-        text-align: center;
-    }
-    .title::before {
-        width: 57px;
-        height: 3px;
-        left: 50%;
-        top: 100%;
-        transform: translateY(0);
-        transform: translateX(-50%);
-    }
-    .block_title {
-        justify-content: center;
-    }
-    .characteristic_item-text {
-        font-size: 15px;
-        line-height: 17px;
-    }
-    .callback_title {
-        font-size: 24px;
-        line-height: 28px;
-    }
-    .first-section_title {
-        margin-bottom: 5px;
-    }
-    .first-section_text {
-        line-height: 24px;
-    }
-    .first-section_price {
-        border-radius: 15px;
-        font-size: 22px;
-        margin-bottom: 18px;
-    }
-    .first-section ul li {
-        margin-bottom: 15px;
-    }
-    .first-section_title .white,
-    .first-section_title .yellow {
-        line-height: 28px;
-        padding-right: 22px;
-        padding-left: 10px;
-    }
-    .first-section_title {
-        line-height: 38px;
-    }
-    .callback::before {
-        height: 80%;
-    }
-    .block_title .desc {
-        text-align: center;
-    }
-    .block_title-link-mob {
-        text-align: center;        
-        justify-content: center;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .block_title-link-mob img {
-        display: none;
-    }
-    .features {
-        padding-bottom: 160px;
-    }
-    .contacts {
-        padding-bottom: 170px;
-    }
-    .contacts .block_title .desc {
-        font-size: 18px;
-        margin-top: 0;
-    }
-    .contacts_adress {
-        margin-bottom: 15px;
-    }
-    .features_video {
+    .about_top-img {
         width: 100%;
-        height: auto;
-        margin: 15px auto 0;
+        height: 240px;
     }
-    .callback2 .callback_title {
-        font-size: 22px;
-        line-height: 27px;
+    .about_top-img img {
+        object-fit: cover;
     }
-    .features_info-title {
-        font-size: 22px;
-        line-height: 27px;
-        margin-bottom: 9px;
-        margin-top: 15px;
-    }
-    .features_info-text {
-        line-height: 19px;
-    }
-    .features_top {
-        margin-bottom: 21px;
-    }
-    .features_bottom ul li {
-        margin-bottom: 18px;
-    }
-    .features_bottom ul li:last-child {
-        margin-bottom: 0px;
-    }
-    .step_item-text {
-        margin-top: 44px;
-    }
-    .header_contacts-soc {
-        width: 24px;
-        height: 24px;
-    }
-    .header_contacts img {
-        width: 24px;
-        height: 24px;
-    }
-    .header_contacts-soc:nth-child(2) {
-        display: block;
-        margin-right: 3px;
-    }
-    .header_contacts-soc:nth-child(4) {
-        display: block;
-        margin-left: 3px;
-    }
-    footer .header_mode {
-        display: block;
-        border-left: none;
-        padding-left: 0;
-        margin-right: 0;
-        text-align: center;
-        margin-top: 20px;
+    .about_top {
         margin-bottom: 30px;
     }
-    footer .header_wrap {
-        flex-direction: column;
-    }
-    footer .header_logo img {
-        width: 175px;
-        flex-shrink: 0;
-    }
-    footer .header_logo {
-        flex-direction: column;
-    }
-    footer .header_contacts {
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-    footer .header_contacts-phone {
+    .about_bottom-img {
         width: 100%;
-        text-align: center;
-        margin-top: 22px;
-        margin-bottom: 27px;
+        height: 240px; 
+    }
+    .about_bottom-img img {
+        object-fit: cover; 
+    }
+    .step_items {
         margin-left: 0;
     }
-    footer .header_contacts-popup {
+    .step_items > * {
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .footer_wrap {
+        flex-direction: column;
+    }
+    .footer_contacts-popup {
         display: block;
+    }
+    .footer_contact-phone {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 26px;
+        color: #FFFFFF;
         margin-left: 0;
     }
-    footer .header_contacts img {
-        width: 38px;
-        height: 38px;
+    .footer_contact-email {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        color: #FFFFFF;
     }
-    footer .header_contacts-soc {
-        width: 38px;
-        height: 38px;
+    .callback-bottom .callback_form .line .submit_btn {
+        width: 100%;
     }
-    footer .header_contacts a:first-child {
-        margin-right: 13px;
+    .footer_contacts {
+        flex-direction: column;
     }
-    footer .header_contacts-soc:nth-child(4) {
-        margin-left: 13px;
+    .footer_logo_mob {
+        display: block;
     }
-    footer .header_contacts-soc:nth-child(2) {
-        margin-right: 13px;
+    .footer_logo_desktop {
+        display: none;
+    }
+    .footer_logo {
+        flex-direction: column;
     }
     footer {
-        padding-bottom: 45px;
-        padding-top: 35px;
+        background: #1A2D59;
+        padding-top: 36px;
+        padding-bottom: 52px;
     }
-      
-    
+    .footer_mode {
+        padding-left: 0px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        color: #FFFFFF;
+        max-width: 100%;
+        margin-right: 0;
+        border-left: none;
+        margin-top: 21px;
+        margin-bottom: 27px;
+    }
+    .footer_mode br {
+        display: none;
+    }
+    .footer_logo a {
+        width: 197px;
+        margin-right: 0px;
+    }
+    .footer_contacts-wrap {
+        margin-bottom: 32px;
+    }
+    .footer_contact {
+        margin-left: 0px;
+        margin-right: 0px;
+        align-items: center;
+    }
+    .footer_contacts-popup {
+        margin-left: 0;
+        margin-top: 34px;
+    }
+    footer .cont {
+        border-top: none;
+        padding-top: 0px;
+    }
+    .callback-bottom {
+        background: #fff;
+    }
+    .callback.callback-bottom .block_title .title {
+        text-align: center;
+    }
+    .callback.callback-bottom .block_title .desc {
+        text-align: center;
+    }
+    .callback-bottom .callback_wrap {
+        padding: 0px;
+        background: #fff;
+    }
+    .callback-bottom .callback_form .line .field input {
+        background: #F1F3F8;
+        border: 2px solid #E3E5EB;
+    }
+    .callback-bottom .callback_form .line .submit_btn {
+        padding-left: 40px;
+    }
+    .callback-bottom {
+        padding-bottom: 0;
+        margin-bottom: 58px;
+        background: #fff;
+    }
+    .callback-bottom .callback_form .line .field {
+        margin-right: 10px;
+    }
+    .text_block p {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .step {
+        padding-top: 62px;
+        padding-bottom: 83px;
+        background: #F1F3F8;
+    }
+
+
+
 
     
     

@@ -1,47 +1,48 @@
 @media (max-width: 479px) {
 
-    .header_contacts-phone {
-        font-size: 15px;
-        line-height: 18px;
-        margin-left: 8px;
+    :root {
+        --font_size_title: 24px;
+        --font_size: 16px;
     }
-    .usage_item ol {
-        padding: 15px;
+    .header {
+        background: url(../image/header_bg_mob.png);
+        padding: 22px 0 161px;
+    }  
+    .step_item:before {
+        right: 22px;
     }
-    .usage_item ol li {
-        padding-left: 33px;
+    .step_items > * {
+        margin-bottom: 30px;
+    }
+    .callback-bottom {
+        padding-bottom: 0;
+        margin-bottom: 58px;
+        background: #fff;
+    }
+    .step .submit_btn {
+        width: 100%;
+    }
+    .step_item {
+        margin-bottom: 20px;
+    }
+    .step_item:last-child {
+        margin-bottom: 0px;
+    }
+    .header_contact-phone {
+        font-size: 13px;
+    }
+    .header_contact-email {
         font-size: 9px;
-        line-height: 11px;
     }
-    .usage_item:nth-child(2) ol {
-        max-width: 183px;
+    .header_logo a {
+        margin-right: 4px;
     }
-    .first-section_title .white, 
-    .first-section_title .yellow {
-        line-height: 28px;
-        padding-right: 14px;
-        padding-left: 5px;
+    .header_contact {
+        margin-left: 2px;
     }
-    .block_title-link-mob {
-        width: 100%;
+    .modal {
+        padding-top: 30px;
     }
-    .contacts .block_title-link {
-        width: 100%;
-        justify-content: center;
-    }
-    .contacts .block_title-link img {
-        display: none;
-    }
-    .first-section_price {
-        padding: 4px 25px 8px 22px;
-    }
-    footer .header_contacts-phone {
-        font-size: 22px;
-        line-height: 27px;
-    }
-
-  
-    
     
 
 }
